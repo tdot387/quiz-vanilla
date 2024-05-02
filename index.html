@@ -29,8 +29,23 @@
 
     <dialog id="open-game-settings">
         <div class="dialog-content">
-            <h1>Create a new game</h1>
             <span class="close-btn" onclick="toggleDialog(false)">X</span>
+            <div>
+                <h1>Create a new game</h1>
+                <p class="d-flex flex-column">
+                    <label for="categories">Categories?</label>
+                    <input placeholder="Categories" id="categories"><br />
+                    <button onclick="next()">Next</button>
+                </p>
+                <!-- Hier gehts weiter-->
+                <p class="d-flex flex-column d-none" id="players">
+                    <label for="categories">Categories?</label>
+                    <input placeholder="Categories" id="categories"><br />
+                    <button onclick="next()">Next</button>
+                </p>
+
+                </p>
+            </div>
         </div>
     </dialog>
 
