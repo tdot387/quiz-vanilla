@@ -3,5 +3,6 @@ function toggleDialog(open) {
 }
 
 function next() {
-    document.getElementById('players').classList.remove('d-none')
+    const categoriesContent = document.getElementById('players-content').classList.remove('d-none');
+    const playersContent = document.getElementById('categories-content').classList.add('d-none');
 }
