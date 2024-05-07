@@ -9,6 +9,7 @@ function toQuestions() {
     const categoriesContent = document.getElementById('questions-content').classList.remove('d-none');
     const playersContent = document.getElementById('categories-content').classList.add('d-none');
     categories = document.getElementById('categories').value;
+    getJSON();
 }
 
 function toPlayers() {
@@ -33,4 +34,17 @@ function buildGame() {
         cats.appendChild(qDiv)
 
     }
+}
+
+async function getJSON() {
+    const response = await fetch('questions.json');
+    const data = await response.json();
+
+    const cat1 = document.getElementById('cat1');
+    const cat2 = document.getElementById('cat2');
+    const cat3 = document.getElementById('cat3');
+
+    cat1.innerText = data[categories].category;
+    cat2.innerText = data[categories].category;
+    cat3.innerText = data[categories].category;
 }

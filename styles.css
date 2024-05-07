@@ -31,11 +31,6 @@ body {
     background-color: white;
 }
 
-.container {
-    background-color: black;
-    
-}
-
 .dialog-content {
     position: fixed;
     top: 50%;
