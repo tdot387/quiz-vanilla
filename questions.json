@@ -1,0 +1,59 @@
+[
+    {
+        "category": "Kategorie 1",
+        "question": "Dies ist die erste Frage",
+        "money": 200
+    },
+    {
+        "category": "Kategorie 1",
+        "question": "Dies ist die zweite Frage",
+        "money": 400
+    },{
+        "category": "Kategorie 1",
+        "question": "Dies ist die dritte Frage",
+        "money": 600
+    },
+    {
+        "category": "Kategorie 1",
+        "question": "Dies ist die vierte Frage",
+        "money": 800
+    },
+    {
+        "category": "Kategorie 2",
+        "question": "Dies ist die erste Frage",
+        "money": 200
+    },
+    {
+        "category": "Kategorie 2",
+        "question": "Dies ist die zweite Frage",
+        "money": 400
+    },{
+        "category": "Kategorie 2",
+        "question": "Dies ist die dritte Frage",
+        "money": 600
+    },
+    {
+        "category": "Kategorie 2",
+        "question": "Dies ist die vierte Frage",
+        "money": 800
+    },
+    {
+        "category": "Kategorie 3",
+        "question": "Dies ist die erste Frage",
+        "money": 200
+    },
+    {
+        "category": "Kategorie 3",
+        "question": "Dies ist die zweite Frage",
+        "money": 400
+    },{
+        "category": "Kategorie 3",
+        "question": "Dies ist die dritte Frage",
+        "money": 600
+    },
+    {
+        "category": "Kategorie 3",
+        "question": "Dies ist die vierte Frage",
+        "money": 800
+    }
+]
