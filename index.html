@@ -36,17 +36,15 @@
             <span class="close-btn" onclick="toggleDialog(false)">X</span>
             <div>
                 <h1>Create a new game</h1>
-                <p class="d-flex flex-column" id="categories-content">
+                <p class="d-flex flex-column" id="categories-number">
                     <label for="categories">Categories?</label>
                     <input placeholder="Categories" id="categories"><br />
-                    <button onclick="toQuestions()">Next</button>
+                    <button onclick="submitNumberOfCategories()">Next</button>
                 </p>
-                <!-- Hier gehts weiter-->
-                <p class="d-flex flex-column d-none" id="questions-content">
-                    <label for="categories">Questions per Category?</label>
-                    <input placeholder="Questions per Category" id="questions-per-category"><br />
-                    <button onclick="toPlayers()">Next</button>
+                <p class="d-flex flex-column d-none" id="categories-names">
+                    
                 </p>
+                
 
                 </p>
             </div>
