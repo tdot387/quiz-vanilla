@@ -33,12 +33,12 @@
 
     <dialog id="open-game-settings">
         <div class="dialog-content">
-            <span class="close-btn" onclick="toggleDialog(false)">X</span>
+            <span class="close-btn" onclick="location.reload();">X</span>
             <div>
                 <h1>Create a new game</h1>
                 <p class="d-flex flex-column" id="categories-number">
                     <label for="categories">Categories?</label>
-                    <input placeholder="Categories" id="categories"><br />
+                    <input placeholder="Categories" id="categories" type="number" min="1" max="7"><br />
                     <button onclick="submitNumberOfCategories()">Next</button>
                 </p>
                 <p class="d-flex flex-column d-none" id="categories-names">
